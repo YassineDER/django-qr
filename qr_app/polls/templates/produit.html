@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details du produit {{ produit.id }}</title>
+</head>
+<body>
+    <nav style="list-style-type: none">
+        <ul>
+            <li><a href="/">Go back</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Details du produit</h1>
+    <p>ID: {{ produit.id }}</p>
+    <p>Produit: {{ produit.nom }}</p>
+    <p>Prix: {{ produit.prix }}</p>
+    <p>Description: {{ produit.description }}</p>
+
+    <button onclick="location.href='/get/qrcode/{{ produit.id }}'">Telecharger le QR code</button>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creer un produit</title>
+</head>
+<body>
+    <nav style="list-style-type: none">
+        <ul>
+            <li><a href="/">Go back</a></li>
+        </ul>
+    </nav>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Creer</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+# Ignore static files
+/staticfiles/
+
+# Ignore media files
+/media/
+
+# Ignore environment variables file
+.env
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore secret key file
+secret_key.txt
+
+# Ignore local development settings
+local_settings.py

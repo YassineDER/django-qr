@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products</title>
+</head>
+<body>
+    <nav style="list-style-type: none">
+        <ul>
+            <li><a href="/">Go back</a></li>
+        </ul>
+    </nav>
+
+    <h1>All products</h1>
+    <ul>
+        {% for produit in produits %}
+            <li><a href="{% url 'get_produit' produit.id %}">{{ produit.nom }}</a></li>
+        {% endfor %}
+    </ul>
+    
+</body>
+</html>
