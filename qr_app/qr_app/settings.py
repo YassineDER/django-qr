@@ -10,7 +10,7 @@ SECRET_KEY = 'django-insecure-)81zjei(ns=&npt$b6i^9uq-b3l*0*04_2ua3yq6uwd3jvm0ha
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 APPEND_SLASH=False
-ALLOWED_HOSTS = ['https://yassineder.pythonanywhere.com']
+ALLOWED_HOSTS = ['yassineder.pythonanywhere.com']
 
 # Application definition
 INSTALLED_APPS = [
